@@ -16,27 +16,26 @@ class ViewController: UIViewController, UICollectionViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let imageView = UIImageView(image: UIImage(named: "bg-dark.jpg"))
-//        imageView.contentMode = .scaleAspectFill
-//        collectionView!.backgroundView = imageView
+        
+        let imageView = UIImageView(image: UIImage(named: "bg.png"))
+        imageView.contentMode = .scaleAspectFill
+        collectionView!.backgroundView = imageView
         
         setupCollectionView()
         
+        collectionView.backgroundColor = UIColor(red: 0xd6/255, green: 0xba/255, blue: 0xb9/255, alpha: 1.0)
         createCircle()
    
     }
     
     private func createCircle() {
-        // создание круга
         let circle = UIView(frame: CGRect(x: (view.frame.width - 420) / 2, y: view.frame.height - 90, width: 420, height: 420))
-        circle.layer.cornerRadius = circle.layer.frame.width / 2
         
-        // установка цвета
-        circle.backgroundColor = UIColor.darkGray
+        circle.layer.cornerRadius = circle.layer.frame.width / 2
+        circle.backgroundColor = UIColor(red: 0.79, green: 0.61, blue: 0.53, alpha: 1.0)
         circle.layer.borderWidth = 10
         circle.layer.borderColor = UIColor.white.cgColor
         
-        // добавление круга на экран
         view.addSubview(circle)
     }
     
@@ -54,7 +53,6 @@ extension ViewController: UICollectionViewDataSource {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CircularCollectionViewCell.reuseIdentifier, for: indexPath) as? CircularCollectionViewCell else {
             fatalError()
         }
-        
 
         cell.backgroundColor = UIColor(hex: hexColors[indexPath.item % hexColors.count])
         
@@ -66,9 +64,8 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-       // print(colors[indexPath.item % colors.count])
+        collectionView.backgroundColor = UIColor(hex: hexColors[indexPath.item % hexColors.count])
     }
-
 }
 
 extension UIColor {
