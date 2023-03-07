@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="i37-LK-qmx">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewLayout key="collectionViewLayout" id="1qu-Rw-mRs" customClass="CircularCollectionViewLayout" customModule="wheelPicker" customModuleProvider="target"/>
                                 <cells>
@@ -41,9 +41,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i37-LK-qmx" secondAttribute="trailing" id="4xD-rT-iRf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="i37-LK-qmx" secondAttribute="bottom" id="6hd-SM-Pe4"/>
-                            <constraint firstItem="i37-LK-qmx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CQi-3A-MHl"/>
+                            <constraint firstAttribute="bottom" secondItem="i37-LK-qmx" secondAttribute="bottom" id="Dve-po-eKZ"/>
                             <constraint firstItem="i37-LK-qmx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EWw-tP-ayV"/>
+                            <constraint firstItem="i37-LK-qmx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bWd-r7-glM"/>
                         </constraints>
                     </view>
                     <connections>
@@ -52,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="71" y="48"/>
+            <point key="canvasLocation" x="69.565217391304358" y="47.544642857142854"/>
         </scene>
     </scenes>
     <resources>

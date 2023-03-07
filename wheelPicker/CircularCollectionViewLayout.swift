@@ -87,7 +87,7 @@ class CircularCollectionViewLayout: UICollectionViewLayout {
             let attributes = CircularCollectionViewLayoutAttributes(forCellWith: indexPath)
             
             attributes.size = self.itemSize
-            attributes.center = CGPoint(x: centerX, y: collectionView!.bounds.midY + 200)
+            attributes.center = CGPoint(x: centerX, y: collectionView!.bounds.midY + 300)
             attributes.angle = self.angle + (self.anglePerItem * CGFloat(i))
             attributes.anchorPoint = CGPoint(x: 0.5, y: anchorPointY)
             
