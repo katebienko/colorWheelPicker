@@ -16,6 +16,11 @@ class ViewController: UIViewController, UICollectionViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let closeImage = UIImageView(frame: CGRect(x: 20, y: 45, width: 45, height: 45))
+        closeImage.contentMode = .scaleAspectFit
+        closeImage.image = UIImage(named: "close.svg")
+        closeImage.alpha = 0.5
+        view.addSubview(closeImage)
         
         let imageView = UIImageView(image: UIImage(named: "bg.png"))
         imageView.contentMode = .scaleAspectFill
@@ -25,7 +30,6 @@ class ViewController: UIViewController, UICollectionViewDelegate {
         
         collectionView.backgroundColor = UIColor(red: 0xd6/255, green: 0xba/255, blue: 0xb9/255, alpha: 1.0)
         createCircle()
-   
     }
     
     private func createCircle() {

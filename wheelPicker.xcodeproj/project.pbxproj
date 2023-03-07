@@ -16,7 +16,6 @@
 		4A305E4129B53B400000397D /* CircularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A305E3F29B53B400000397D /* CircularCollectionViewCell.swift */; };
 		4A305E4229B53B400000397D /* CircularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A305E4029B53B400000397D /* CircularCollectionViewCell.xib */; };
 		4A305E4929B548DE0000397D /* UICollectionViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A305E4829B548DE0000397D /* UICollectionViewCell+ReuseIdentifier.swift */; };
-		4A74D8CF29B5EAAB00ADEA32 /* bg-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A74D8CE29B5EAAB00ADEA32 /* bg-dark.jpg */; };
 		4A74D8D129B5EBA600ADEA32 /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A74D8D029B5EBA600ADEA32 /* CircularCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		4A305E3F29B53B400000397D /* CircularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewCell.swift; sourceTree = "<group>"; };
 		4A305E4029B53B400000397D /* CircularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularCollectionViewCell.xib; sourceTree = "<group>"; };
 		4A305E4829B548DE0000397D /* UICollectionViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
-		4A74D8CE29B5EAAB00ADEA32 /* bg-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-dark.jpg"; sourceTree = "<group>"; };
 		4A74D8D029B5EBA600ADEA32 /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,7 +71,6 @@
 				4A305E4829B548DE0000397D /* UICollectionViewCell+ReuseIdentifier.swift */,
 				4A305E2B29B53A4B0000397D /* AppDelegate.swift */,
 				4A305E2D29B53A4B0000397D /* SceneDelegate.swift */,
-				4A74D8CE29B5EAAB00ADEA32 /* bg-dark.jpg */,
 				4A305E3129B53A4B0000397D /* Main.storyboard */,
 				4A305E3429B53A4F0000397D /* Assets.xcassets */,
 				4A305E3629B53A4F0000397D /* LaunchScreen.storyboard */,
@@ -142,7 +139,6 @@
 			files = (
 				4A305E3829B53A4F0000397D /* LaunchScreen.storyboard in Resources */,
 				4A305E3529B53A4F0000397D /* Assets.xcassets in Resources */,
-				4A74D8CF29B5EAAB00ADEA32 /* bg-dark.jpg in Resources */,
 				4A305E3329B53A4B0000397D /* Main.storyboard in Resources */,
 				4A305E4229B53B400000397D /* CircularCollectionViewCell.xib in Resources */,
 			);
